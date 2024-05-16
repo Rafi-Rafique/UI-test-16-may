@@ -1,0 +1,141 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(61, 60, 60);
+}
+
+ .section{
+    background-image: url(images/1709402595543\ 1.png);
+    background-size: cover;
+ }
+
+.nav-item a:hover{
+    color: #F17AD4 !important;
+    text-align: center !important;
+}
+
+.btn-1{
+    color: #F17AD4;
+    border: 1px solid #F17AD4;
+    border-radius: 20px;
+    
+}
+
+
+.btn-2{
+    background-color: #F17AD4;
+    color: white;
+    border: 1px solid #F17AD4;
+    border-radius: 20px;
+}
+
+.btn-3{
+    color: #faf5f9;
+    border: 1px solid #F17AD4;
+    border-radius: 20px;
+    
+}
+
+hr{
+  
+    border: 2px solid #F17AD4 ;
+}
+
+.lets{
+    color: #F17AD4 !important;
+}
+.strategy{
+    color: white !important;
+}
+
+.image{
+    width: 100% !important;
+    
+}
+
+h1{
+    color: #F17AD4;
+    letter-spacing: 5px;
+    
+
+}
+
+span{
+    color: white;
+}
+
+
+
+/* media-queries */
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1{
+        display: inline-block;
+        /* background-color: blue; */
+    }
+
+        .section{
+            width: 100%;
+             
+            background-size: contain;
+            margin-left: 20px;
+            
+         }
+        
+        .nav-item a:hover{
+            color: #F17AD4 !important;
+            text-align: center !important;
+        }
+        
+        .btn-1{
+            color: #F17AD4;
+            border: 1px solid #F17AD4;
+            border-radius: 20px;
+            
+        }
+        
+        
+        .btn-2{
+            background-color: #F17AD4;
+            color: white;
+            border: 1px solid #F17AD4;
+            border-radius: 20px;
+        }
+        
+        .btn-3{
+            color: #faf5f9;
+            border: 1px solid #F17AD4;
+            border-radius: 20px;
+            
+        }
+        
+        hr{
+          
+            border: 2px solid #F17AD4 ;
+        }
+        
+        .lets{
+            color: #F17AD4 !important;
+        }
+        .strategy{
+            color: white !important;
+        }
+        
+        .image{
+            width: 100% !important;
+            
+        }
+        
+        h1{
+            color: #F17AD4;
+            letter-spacing: 5px;
+            
+        
+        }
+        
+        span{
+            color: white;
+        }
+    }
